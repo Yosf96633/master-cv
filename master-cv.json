@@ -1,0 +1,679 @@
+{
+  "document": {
+    "type": "master_cv",
+    "version": "1.0.0",
+    "language": "en",
+    "last_verified": "2026-10-03",
+    "purpose": "Source-of-truth career data for generating job-specific CVs",
+    "generation_rules": [
+      "Use only facts present in this file.",
+      "Do not invent employers, dates, metrics, qualifications, responsibilities, technologies, certificates, awards, or contact details.",
+      "Select and reorder the most relevant evidence for the supplied job description.",
+      "A generated summary may paraphrase verified facts but must not add unsupported claims.",
+      "Keep project contribution statements explicit when a project was co-developed.",
+      "Treat repository creation and push dates as repository metadata, not as confirmed project-duration dates.",
+      "Omit null, empty, or unverified fields from a generated CV.",
+      "Prefer concise, ATS-friendly wording and conventional section names.",
+      "Ask the candidate before adding any information listed under data_gaps."
+    ]
+  },
+  "person": {
+    "full_name": "Muhammad Yousaf",
+    "display_name": "Muhammad Yousaf",
+    "location": {
+      "country": "Pakistan",
+      "city": "Lahore"
+    },
+    "headline": "Full-Stack and AI Systems Engineer",
+    "alternate_headlines": [
+      "Full-Stack Developer",
+      "Agentic AI Developer",
+      "Linux Systems and Full-Stack Engineer"
+    ],
+    "contact": {
+      "email": "yousaf.dev18@gmail.com",
+      "phone": "03358485732",
+      "website": "https://yousaf-dev18.vercel.app/",
+      "github": "https://github.com/Yosf96633",
+      "linkedin": "https://linkedin.com/in/yousaf-dev18/"
+    }
+  },
+  "professional_summary": {
+    "canonical": "Full-stack developer working at the intersection of Linux systems and agentic AI. Builds stateful AI workflows, retrieval-augmented applications, secure backend systems, and usable web interfaces with TypeScript, Python, React, and Next.js. Recent work includes a Unix-like shell in C++20, LangGraph-based agents, hybrid retrieval with source citations, and production-oriented authentication and data workflows.",
+    "short": "Full-stack and AI systems engineer building agentic workflows, RAG applications, secure backends, and modern web interfaces.",
+    "focus_areas": [
+      "Linux systems",
+      "Agentic AI",
+      "Retrieval-augmented generation",
+      "Full-stack web engineering",
+      "Backend architecture",
+      "Authentication and authorization"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "degree_short": "BS Computer Science",
+      "institution": "Government College University Faisalabad",
+      "location": null,
+      "start_year": 2021,
+      "end_year": 2025,
+      "grade": null,
+      "coursework": []
+    }
+  ],
+  "experience": [
+    {
+      "organization": "Independent",
+      "position": "Self-Employed",
+      "employment_type": "Self-employed",
+      "location": null,
+      "start_date": "2026-05",
+      "end_date": null,
+      "current": true,
+      "highlights": [],
+      "technologies": [],
+      "notes": "The public profile provides the title and dates but no verified responsibility bullets."
+    },
+    {
+      "organization": "Mozzine Technologies",
+      "position": "Frontend Developer",
+      "employment_type": "full-time",
+      "location": "on-site",
+      "start_date": "2025-10",
+      "end_date": "2026-04",
+      "current": false,
+      "highlights": [
+        "Developed B2B SaaS dashboard features with Next.js, TypeScript, and Tailwind CSS.",
+        "Translated more than 20 Figma designs into responsive components with shadcn/ui while maintaining consistency across desktop and mobile.",
+        "Integrated REST APIs with Redux and Zustand and resolved UI bugs across browsers and dashboard modules."
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Redux",
+        "Zustand",
+        "REST APIs"
+      ]
+    },
+    {
+      "organization": "Code Expert",
+      "position": "Full Stack Intern",
+      "employment_type": "Internship",
+      "location": null,
+      "start_date": "2025-07",
+      "end_date": "2025-09",
+      "current": false,
+      "highlights": [
+        "Developed a multi-vendor e-commerce platform with two role-based dashboards for food and gift product modules.",
+        "Built more than 15 REST API endpoints for orders, products, and vendor operations with shared MongoDB schemas and validation middleware.",
+        "Improved database query response times by 40% using Mongoose lean queries, projections, and compound indexes.",
+        "Implemented NextAuth.js authentication, JWT sessions, role-based access, and transactional emails through Resend."
+      ],
+      "technologies": [
+        "Next.js",
+        "Node.js",
+        "Express",
+        "Tailwind CSS",
+        "MongoDB",
+        "Mongoose",
+        "NextAuth.js",
+        "JWT",
+        "Resend",
+        "REST APIs"
+      ]
+    },
+    {
+      "organization": "Hiba Logics",
+      "position": "PHP Laravel Intern",
+      "employment_type": "Internship",
+      "location": null,
+      "start_date": "2025-05",
+      "end_date": "2025-06",
+      "current": false,
+      "highlights": [
+        "Applied Laravel routing, controllers, Eloquent ORM, and Blade templates in backend development.",
+        "Built server-side logic and database interactions using the Model-View-Controller pattern.",
+        "Worked with MySQL queries, migrations, and Laravel's schema builder.",
+        "Collaborated with senior developers, participated in code reviews, and followed team development practices."
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Eloquent ORM",
+        "Blade",
+        "Git"
+      ]
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "C++",
+      "C",
+      "Rust",
+      "Bash",
+      "PHP"
+    ],
+    "frontend": [
+      "HTML",
+      "CSS",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Redux",
+      "Zustand",
+      "Framer Motion",
+      "React Three Fiber",
+      "Three.js",
+      "GLSL",
+      "Playwright"
+    ],
+    "backend_and_apis": [
+      "Node.js",
+      "Express",
+      "NestJS",
+      "FastAPI",
+      "Laravel",
+      "REST APIs",
+      "Better Auth",
+      "Auth.js",
+      "JWT",
+      "Zod",
+      "WebSockets",
+      "Socket.IO",
+      "BullMQ",
+      "Resend"
+    ],
+    "databases_and_storage": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Qdrant",
+      "SQLite",
+      "Supabase",
+      "Cloudinary"
+    ],
+    "orms_and_data_access": [
+      "Drizzle ORM",
+      "Prisma ORM",
+      "Mongoose",
+      "Eloquent ORM"
+    ],
+    "ai_and_automation": [
+      "LangChain",
+      "LangGraph",
+      "OpenAI API",
+      "Groq",
+      "Cohere",
+      "Google Gemini",
+      "Retrieval-augmented generation",
+      "Hybrid retrieval",
+      "Dense embeddings",
+      "SPLADE sparse vectors",
+      "Reranking",
+      "LLM structured outputs",
+      "Human-in-the-loop workflows",
+      "Model Context Protocol",
+      "n8n"
+    ],
+    "systems_and_security": [
+      "Linux",
+      "POSIX process management",
+      "Unix signals",
+      "File descriptors",
+      "Terminal job control",
+      "Nmap",
+      "Metasploit",
+      "Wireshark",
+      "Burp Suite"
+    ],
+    "developer_tools_and_platforms": [
+      "Git",
+      "GitHub",
+      "CMake",
+      "Docker",
+      "Vercel",
+      "Render",
+      "Neon",
+      "Jest",
+      "CTest"
+    ],
+    "usage_note": "The profile presents these technologies as part of the candidate's stack. Do not infer a proficiency level or years of experience unless another entry provides direct evidence."
+  },
+  "projects": [
+    {
+      "rank": 1,
+      "name": "myShell",
+      "featured_on_profile": true,
+      "type": "Systems programming",
+      "summary": "A Unix-like shell implemented in C++20 from parsing through terminal and process-group control.",
+      "highlights": [
+        "Built a quote-aware parser supporting environment assignments, parameter expansion, aliases, simple functions, pipelines, redirections, and background operators.",
+        "Implemented concurrent pipeline execution with one child process per stage, shared process groups, correct file-descriptor wiring, and final-stage exit status propagation.",
+        "Added foreground and background job control with terminal handoff and jobs, fg, and bg built-ins.",
+        "Coordinated Ctrl+C, Ctrl+backslash, and Ctrl+Z behavior so signals reach foreground jobs without terminating the shell.",
+        "Implemented left-to-right redirection semantics, descriptor duplication and closure, plus restoration of parent file descriptors after built-ins.",
+        "Added PATH-based command caching, aliases, functions, persistent environment assignments, and command history.",
+        "Created CTest unit coverage and pseudo-terminal integration tests for parsing, execution, signals, process groups, terminal ownership, and job control."
+      ],
+      "technologies": [
+        "C++20",
+        "Linux",
+        "POSIX APIs",
+        "CMake",
+        "CTest",
+        "Pseudo-terminals"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/myshell",
+        "live": null
+      },
+      "repository_metadata": {
+        "created_at": "2026-09-19",
+        "last_pushed_at": "2026-09-25",
+        "primary_language": "C++"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "AutoHunt",
+      "featured_on_profile": true,
+      "type": "Agentic AI and full-stack automation",
+      "summary": "A stateful job-application workflow that parses CVs, discovers and scores jobs, drafts and critiques cover letters, pauses for human review, and supports browser-driven submission.",
+      "highlights": [
+        "Orchestrated a 10-stage LangGraph state machine covering CV parsing, job discovery, relevance scoring, filtering, cover-letter drafting and refinement, human review, browser automation, tracking, and email digest composition.",
+        "Implemented Playwright automation for navigating job portals, locating form fields, and filling applications from structured résumé data.",
+        "Used OpenAI and Groq Llama 3.3 for semantic job-CV matching and an iterative critic-refiner cover-letter loop.",
+        "Built a PDF parsing pipeline with pdfjs-dist and validated CV data, job listings, model outputs, and application forms with Zod.",
+        "Added human-in-the-loop graph interruptions before application submission.",
+        "Persisted LangGraph checkpoints in PostgreSQL and tracked local application history in SQLite.",
+        "Built a Next.js dashboard for live workflow status, job browsing, skill matches, and application statistics."
+      ],
+      "technologies": [
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "LangGraph",
+        "OpenAI API",
+        "Groq",
+        "Playwright",
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Zod",
+        "PostgreSQL",
+        "SQLite",
+        "pdfjs-dist"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/Autohunt",
+        "live": null
+      },
+      "repository_metadata": {
+        "created_at": "2026-07-30",
+        "last_pushed_at": "2026-07-30",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "DocsAI",
+      "featured_on_profile": true,
+      "type": "Legal-document RAG application",
+      "summary": "A document-analysis assistant with separate ingestion and RAG chat workflows, streamed answers, and source-aware citations.",
+      "highlights": [
+        "Built an AI pre-check that validates whether an uploaded PDF contains legal or compliance content before ingestion.",
+        "Combined OpenAI dense embeddings and SPLADE sparse vectors in Qdrant, then applied Cohere reranking.",
+        "Created position-aware PDF chunking that retains page and estimated text coordinates for citation highlighting.",
+        "Delivered generated text and citations through server-sent events.",
+        "Separated document ingestion and chat generation into independent LangGraph pipelines.",
+        "Maintained conversation isolation with PostgreSQL-backed thread context.",
+        "Integrated Groq Llama 3.3 for generation, OpenAI for embeddings, Cohere for reranking, Qdrant for retrieval, and Cloudinary for PDF storage."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "Next.js",
+        "React",
+        "Qdrant",
+        "PostgreSQL",
+        "Cloudinary",
+        "OpenAI API",
+        "Groq",
+        "Cohere",
+        "SPLADE",
+        "Server-sent events"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/DocsAI",
+        "live": null
+      },
+      "repository_metadata": {
+        "created_at": "2026-05-19",
+        "last_pushed_at": "2026-07-11",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Vidspire / Vidly",
+      "featured_on_profile": true,
+      "type": "AI-powered YouTube analytics platform",
+      "summary": "A platform that analyzes YouTube comments and transcripts to surface sentiment, emotions, content patterns, and actionable insights.",
+      "contribution": {
+        "collaboration": "Co-developed",
+        "backend_percentage": 80,
+        "frontend_percentage": 20
+      },
+      "highlights": [
+        "Architected asynchronous analysis jobs with BullMQ and Redis, including worker concurrency and rate limits.",
+        "Built a seven-stage LangGraph workflow with sentiment classification and parallel analysis of emotions, patterns, loved aspects, improvements, and viewer requests.",
+        "Implemented WebSocket progress updates across queuing, data retrieval, analysis, and completion stages.",
+        "Fetched YouTube comments and transcripts in parallel with graceful fallback handling.",
+        "Implemented rotation across eight Google Gemini API keys to distribute load and reduce rate-limit bottlenecks.",
+        "Added Redis-backed rate limiting, structured Zod outputs, Resend notifications, and production deployment on Render.",
+        "Contributed Next.js interface improvements and SEO work deployed through Vercel."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express",
+        "TypeScript",
+        "LangChain",
+        "LangGraph",
+        "Google Gemini",
+        "BullMQ",
+        "Redis",
+        "Socket.IO",
+        "WebSockets",
+        "Zod",
+        "Next.js",
+        "Resend",
+        "Render",
+        "Vercel"
+      ],
+      "links": {
+        "repository": null,
+        "backend_repository": "https://github.com/Yosf96633/Vidly_backend",
+        "frontend_repository": "https://github.com/Yosf96633/Vidly_frontend",
+        "live": "https://getvidly.com/"
+      },
+      "repository_metadata": {
+        "backend_created_at": "2026-01-25",
+        "backend_last_pushed_at": "2026-02-01",
+        "frontend_created_at": "2026-01-25",
+        "frontend_last_pushed_at": "2026-02-03",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Better Auth Starter",
+      "featured_on_profile": true,
+      "type": "Authentication starter",
+      "summary": "A Next.js authentication starter covering sign-in, account management, two-factor authentication, and transactional email.",
+      "highlights": [
+        "Implemented email and password authentication plus GitHub and Google OAuth.",
+        "Added email verification, account linking, TOTP-based two-factor authentication, backup codes, and session management.",
+        "Implemented profile updates, password changes and resets, and account deletion workflows.",
+        "Used PostgreSQL with Drizzle ORM, Zod validation, and Resend with React Email templates."
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Better Auth",
+        "PostgreSQL",
+        "Drizzle ORM",
+        "Zod",
+        "Resend",
+        "React Email",
+        "OAuth",
+        "TOTP"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/Better_auth_starter",
+        "live": "https://ba-starter7.vercel.app/"
+      },
+      "repository_metadata": {
+        "created_at": "2026-01-11",
+        "last_pushed_at": "2026-01-21",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Nest E-Commerce API",
+      "featured_on_profile": false,
+      "type": "Backend REST API",
+      "summary": "A modular NestJS e-commerce API supporting account flows, seller applications, stores, product management, public catalog browsing, shopping carts, and product reviews.",
+      "highlights": [
+        "Implemented JWT access tokens and rotating refresh tokens, with refresh tokens hashed in the database.",
+        "Added email verification, user account and session management, password changes, and account deletion.",
+        "Implemented customer, seller, rider, and admin roles with application and approval workflows.",
+        "Built seller-owned store and product management with ownership validation and Cloudinary image uploads.",
+        "Added a paginated public catalog with search, price, store, and sorting filters.",
+        "Implemented persistent shopping carts and user-owned product reviews.",
+        "Created configurable development seed tooling for users, stores, products, images, and idempotent reviews."
+      ],
+      "technologies": [
+        "NestJS 11",
+        "TypeScript",
+        "PostgreSQL",
+        "Neon",
+        "Drizzle ORM",
+        "JWT",
+        "Cloudinary",
+        "Resend",
+        "class-validator",
+        "Jest"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/nest-e-commerce",
+        "live": null
+      },
+      "repository_metadata": {
+        "created_at": "2026-08-24",
+        "last_pushed_at": "2026-10-03",
+        "primary_language": "TypeScript"
+      },
+      "limitations": [
+        "The repository README states that checkout, orders, addresses, and wishlists are not yet implemented."
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Event Horizon",
+      "repository_name": "demo-astra",
+      "featured_on_profile": false,
+      "type": "Interactive WebGL experience",
+      "summary": "A responsive cinematic astronomy experience combining realtime WebGL scenes, custom GLSL shaders, motion-led storytelling, and accessible fallbacks.",
+      "highlights": [
+        "Created a custom GLSL black-hole effect with ray bending, accretion-disk shading, bloom, and spectral edge separation.",
+        "Built React Three Fiber scenes for a black hole, procedural spiral galaxy, nebula atmosphere, and neutron star.",
+        "Implemented scroll-linked scene movement, lazy initialization with IntersectionObserver, and offscreen animation pausing.",
+        "Reduced geometry and effects on smaller devices and added reduced-motion support.",
+        "Added semantic labels, keyboard navigation, visible focus states, a skip link, and static poster fallbacks for unavailable or lost WebGL contexts.",
+        "Created Playwright-based browser verification for interactions and fallbacks."
+      ],
+      "technologies": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Three.js",
+        "React Three Fiber",
+        "Drei",
+        "WebGL",
+        "GLSL",
+        "Framer Motion",
+        "Lenis",
+        "Tailwind CSS",
+        "Playwright"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/demo-astra",
+        "live": "https://demo-astra-sigma.vercel.app"
+      },
+      "repository_metadata": {
+        "created_at": "2026-09-06",
+        "last_pushed_at": "2026-10-01",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Algo Arena",
+      "repository_name": "AlgoArena_Frontend",
+      "featured_on_profile": false,
+      "type": "Coding-practice platform frontend",
+      "summary": "A React and TypeScript frontend for a LeetCode-style coding platform with authentication, problem management, code submission, and Judge0-powered execution.",
+      "highlights": [
+        "Implemented Supabase sign-up and login flows.",
+        "Built interfaces for browsing, adding, editing, and attempting data-structure and algorithm problems.",
+        "Integrated code submission and execution workflows designed around the Judge0 API.",
+        "Created a responsive interface using React, TypeScript, Tailwind CSS, and shadcn/ui."
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Supabase",
+        "Judge0 API",
+        "Axios"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/AlgoArena_Frontend",
+        "live": null
+      },
+      "repository_metadata": {
+        "created_at": "2025-07-11",
+        "last_pushed_at": "2025-07-12",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 9,
+      "name": "CamBot",
+      "repository_name": "cambot_fyp",
+      "featured_on_profile": false,
+      "type": "Institution-specific RAG chatbot",
+      "summary": "A Next.js chatbot that retrieves relevant institutional documents from Supabase and streams context-grounded responses for Sahara Medical College Narowal.",
+      "highlights": [
+        "Generated query embeddings with OpenAI text-embedding-3-large.",
+        "Used a Supabase remote procedure call to retrieve up to eight matching document chunks with a similarity threshold.",
+        "Injected retrieved context into a constrained system prompt designed to avoid unsupported answers.",
+        "Streamed responses from GPT-4o mini through the Vercel AI SDK.",
+        "Built chat, about, and admin-facing routes with a responsive Next.js interface."
+      ],
+      "technologies": [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "OpenAI API",
+        "Vercel AI SDK",
+        "Supabase",
+        "Vector search",
+        "Tailwind CSS",
+        "Radix UI"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/cambot_fyp",
+        "live": "https://cambot-rose.vercel.app"
+      },
+      "repository_metadata": {
+        "created_at": "2025-06-22",
+        "last_pushed_at": "2025-08-09",
+        "primary_language": "TypeScript"
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Personal Portfolio",
+      "repository_name": "new_portfolio",
+      "featured_on_profile": false,
+      "type": "Developer portfolio",
+      "summary": "A responsive personal portfolio presenting experience, projects, technology stack, social links, GitHub activity, and contact options.",
+      "highlights": [
+        "Built a responsive single-page portfolio with introduction, experience, projects, social links, and a downloadable CV.",
+        "Added a categorized technology grid, GitHub contribution graph, and light and dark themes.",
+        "Implemented a contact form using React Hook Form, Zod, and EmailJS.",
+        "Separated profile, project, experience, technology, and social-link content into maintainable data modules.",
+        "Configured type checking, linting, and production build checks."
+      ],
+      "technologies": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS 4",
+        "React Hook Form",
+        "Zod",
+        "EmailJS",
+        "Vercel"
+      ],
+      "links": {
+        "repository": "https://github.com/Yosf96633/new_portfolio",
+        "live": "https://yousaf-dev18.vercel.app/"
+      },
+      "repository_metadata": {
+        "created_at": "2025-11-06",
+        "last_pushed_at": "2026-09-30",
+        "primary_language": "TypeScript"
+      }
+    }
+  ],
+  "certifications": [],
+  "awards": [],
+  "professional_interests": [
+    "Linux systems and process control",
+    "Agent design with explicit state and conditional routing",
+    "Persistent and human-reviewed AI workflows",
+    "Hybrid retrieval, reranking, and source-grounded answers",
+    "Backend architecture with clear boundaries",
+    "Authentication and authorization",
+    "Full-stack product engineering",
+    "Interactive web experiences"
+  ],
+  "languages": [],
+  "project_selection": {
+    "method": "Five projects explicitly featured in the GitHub profile README, followed by five additional repositories selected for technical depth, distinct evidence, documentation quality, and relevance to the candidate's stated focus areas.",
+    "not_an_objective_ranking": true,
+    "featured_projects": [
+      "myShell",
+      "AutoHunt",
+      "DocsAI",
+      "Vidspire / Vidly",
+      "Better Auth Starter"
+    ],
+    "additional_selected_projects": [
+      "Nest E-Commerce API",
+      "Event Horizon",
+      "Algo Arena",
+      "CamBot",
+      "Personal Portfolio"
+    ]
+  },
+  "data_gaps": [
+    "Phone number",
+    "City or more precise location",
+    "Independent self-employment responsibilities and achievements",
+    "Education grade or CGPA",
+    "Relevant coursework",
+    "Certifications",
+    "Awards and honors",
+    "Spoken languages and proficiency",
+    "Employment locations",
+    "Project start and completion dates distinct from repository metadata"
+  ]
+}
