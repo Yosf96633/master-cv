@@ -6,7 +6,8 @@ ChatGPT, Claude, or another capable language model.
 It keeps complete career information separate from the final résumé. For each
 application, the model should read the master data, select the evidence most
 relevant to the job description, and place it into the supplied ATS-friendly
-HTML template.
+HTML template before delivering a finished PDF. It must not copy the complete
+master skill or project inventory into every CV.
 
 ## Repository files
 
@@ -27,18 +28,29 @@ HTML template.
 4. Ask the model to read `instruction.md` first.
 5. Ask it to use `master-cv.json` as the factual source and
    `cv-template.html` as the required layout.
-6. Review every generated claim, date, metric, and link before applying.
-7. Export the final HTML to PDF using A4 paper size with browser headers and
-   footers disabled.
+6. The model must first propose relevant experience, skills, and projects and
+   ask for your preferences. It must wait for your confirmation.
+7. Tell it which projects to include and which skills or technologies to add,
+   remove, or emphasize.
+8. The model must generate and return the final A4 PDF. HTML is only an
+   intermediate rendering format unless you explicitly request it.
+9. Review every generated claim, date, metric, link, and page before applying.
 
 ## Example prompt
 
 ```text
 Read instruction.md, master-cv.json, and cv-template.html from this repository.
-Create a CV tailored to the job description below. Use only facts in
-master-cv.json, preserve the supplied template, and return the completed HTML.
-Use one page when the relevant content fits comfortably; otherwise use two
-pages without shrinking the text excessively.
+First analyze the job description and propose only the relevant experience,
+skills, and projects from master-cv.json. Do not generate the CV yet. Ask me to
+confirm the target title, project count and selection, skill inclusions and
+exclusions, missing information, and page preference.
+
+After I confirm, create a highly tailored CV using only the approved relevant
+content. Exclude unrelated technologies even if they exist in master-cv.json.
+Preserve the layout in cv-template.html and return the finished A4 PDF as the
+primary deliverable. Do not stop at HTML. Use one page when the approved
+content fits comfortably; otherwise use two pages without shrinking the text
+excessively.
 
 Job description:
 [PASTE THE COMPLETE JOB DESCRIPTION HERE]
@@ -55,6 +67,19 @@ Job description:
 - Controlled page breaks for multi-page CVs
 - No icons, tables used for content, progress bars, or decorative sidebars
 
+## Tailoring behavior
+
+- Inclusion is opt-in: every skill, bullet, and project must be relevant to the
+  job description or explicitly requested by the user.
+- The model must not dump the full master skill list into a targeted CV.
+- For example, a networking CV should not contain React, Next.js, Tailwind CSS,
+  or UI libraries unless the job description or user explicitly requests them.
+- The model must ask for project count, selected technologies, exclusions, and
+  missing truthful information before generating anything.
+- Unsupported job requirements are reported as gaps rather than disguised with
+  unrelated experience.
+- The final deliverable is always a PDF aligned with the HTML template.
+
 ## Privacy
 
 This repository is intended to be public. Do not commit private addresses,
@@ -67,4 +92,3 @@ Update `master-cv.json` when experience, education, skills, projects,
 certifications, or awards change. Keep claims factual and measurable. If a
 metric cannot be verified, omit it or mark it for confirmation rather than
 guessing.
-
